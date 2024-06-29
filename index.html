@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+
+        <div class="container">
+            <div class="section__content">
+                <div class="title">
+                    <h1>Kim birinchi bo-rish-ga!</h1>
+                    <button id="light-dark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-moon-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="section__input">
+                    <h5>Masofa</h5>
+                    <input placeholder="Masofani kiriting" type="number">
+                    <button id="btn">Hisobla</button>
+                </div>
+                <div class="section__cards">
+                    <div class="card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                            class="bi bi-person-standing" viewBox="0 0 16 16">
+                            <path
+                                d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M6 6.75v8.5a.75.75 0 0 0 1.5 0V10.5a.5.5 0 0 1 1 0v4.75a.75.75 0 0 0 1.5 0v-8.5a.25.25 0 1 1 .5 0v2.5a.75.75 0 0 0 1.5 0V6.5a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v2.75a.75.75 0 0 0 1.5 0v-2.5a.25.25 0 0 1 .5 0" />
+                        </svg>
+                        <h6>Piyoda</h6>
+                        <h3 id="result"></h3>
+                    </div>
+                    <div class="card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                            class="bi bi-bicycle" viewBox="0 0 16 16">
+                            <path
+                                d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5m1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139zM8 9.057 9.598 6.5H6.402zM4.937 9.5a2 2 0 0 0-.487-.877l-.548.877zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53z" />
+                        </svg>
+                        <h6>Velosiped</h6>
+                        <h3 id="result2"></h3>
+                    </div>
+                    <div class="card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                            class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2m10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17s3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z" />
+                        </svg>
+                        <h6>Moshina</h6>
+                        <h3 id="result3"></h3>
+                    </div>
+                    <div class="card">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 24 24" width="70" fill="currentColor">
+                            <path
+                                d="M12.685 13.285l-3.44 3.06.528 2.423-2.488 2.488-2.507-3.921-3.921-2.507 2.488-2.488L5.9 13l2.927-3.573-6.171-4.114 2.828-2.829L13.2 5.057l3.793-3.793c1.171-1.172 2.985-1.258 4.05-.193s.978 2.878-.193 4.05l-3.793 3.793 2.571 7.713-2.828 2.829-4.114-6.171z">
+                            </path>
+                        </svg>
+                        <!-- <img src="./images/plane.jpg" alt=""> -->
+                        <h6>Samolyot</h6>
+                        <h3 id="result4"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
