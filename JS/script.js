@@ -75,13 +75,6 @@ const seconds4 = Math.round((allMinutes - minutes) * 60 )
 
 elResult4.textContent = `${hour4} soat ${minutes4} daqiqa ${seconds} soniya`;
 });
-// DARK MODE////////////////////////
-
-// const btn = document.querySelector('button')
-// btn.addEventListener('click',() =>{
-// document.body.classList.add(tun)
-// document.body.classList.toggle('Tun')
-// }) 
 
 
 let modemoon = document.getElementById("light-dark");
